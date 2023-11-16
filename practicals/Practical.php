@@ -8,6 +8,10 @@ class Practical {
 
     // Static function to add two numbers
     public static function add($num1, $num2) {
+    if(!is_numeric($num1) || !is_numeric($num2))
+        {
+            throw new \InvalidArgumentException("Arguments must be numeric");
+        }
         return $num1 + $num2;
     }
 
