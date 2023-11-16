@@ -11,7 +11,7 @@ class Practical {
     if(!is_numeric($num1) || !is_numeric($num2))
         {
             throw new \InvalidArgumentException("Arguments must be numeric");
-        }
+        }
         return $num1 + $num2;
     }
 

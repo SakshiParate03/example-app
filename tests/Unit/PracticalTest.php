@@ -16,13 +16,6 @@ class PracticalTest extends TestCase
     {
         $this->assertEquals(\Practical::add(1,3), 4);
     }
-    /**
-     * A basic unit test example.
-     */
-    public function testAdd(): void
-    {
-        $this->assertEquals(\Practical::add(1,3), 4);
-    }
 
     /**
      * A basic unit test example.
@@ -71,8 +64,7 @@ class PracticalTest extends TestCase
     {
         $this->expectException(\InvalidArgumentException::class);
         \Practical::add("a1","2");
-    }
-
+    }
 }
 
 ?>
