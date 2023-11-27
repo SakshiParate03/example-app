@@ -5,6 +5,8 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+require(__DIR__.'/../../practicals/song.php');
+use practicals\Song;
 
 class SongsTest extends TestCase
 {
